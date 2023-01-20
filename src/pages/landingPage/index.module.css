@@ -46,6 +46,8 @@
 }
 .navContent{
   cursor: pointer;
+  text-decoration: none;
+  color: wheat;
 }
 .landingPageContainer{
   display: flex;
