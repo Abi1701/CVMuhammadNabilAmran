@@ -4,6 +4,7 @@ import PP from "../../assets/PP.png";
 import Border from "../../assets/border.svg";
 import Camera from "../../assets/camera.jpg";
 import Mac from "../../assets/mac.jpg";
+import Navbar from "../../components/navbar";
 export default function Page1() {
 	return (
 		<>
@@ -15,6 +16,11 @@ export default function Page1() {
 								<a href="/" className={styles.navContent}>
 									MNA
 								</a>
+							</li>
+						</ul>
+						<ul className={styles.hamburger}>
+							<li className={styles.hamburger}>
+								<Navbar />
 							</li>
 						</ul>
 						<ul className={styles.navList}>
