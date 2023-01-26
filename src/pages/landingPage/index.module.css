@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .landingPage{
   background-image: url(/src/assets/BG.jpg);
   background-repeat: no-repeat;
@@ -101,6 +102,137 @@
 .jobName{
   color: white;
 }
+
+.about{
+  background:#111820;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  min-width: 100%;
+  width: 100%;
+  font-family: Poppins;
+  display: flex;
+}
+.aboutContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: wheat;
+  padding-left: 13rem;
+}
+.aboutName{
+width: 600px;
+}
+.Name{
+  font-size: 32px;
+  font-weight: 800;
+}
+.aboutParagraf{
+  width: 600px;
+}
+.Paragraf{
+font-size: 24px;
+}
+@media screen and (width: 320px) {
+  .aboutName{
+    width: 300px;
+    }
+  .aboutContainer{
+    padding-top: 2rem;
+    padding-left: 0rem;
+  }
+  .Name{
+    font-size: 24px;
+    font-weight: 800;
+   text-align: center;
+  }
+  .aboutParagraf{
+    width: 300px;
+    margin-left: 1rem;
+  }
+  .Paragraf{
+    font-size: 14px;
+    width: 300px;
+    }
+}
+@media screen and (min-width: 375px) {
+  .aboutName{
+    width: 350px;
+    }
+  .aboutContainer{
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+  .Name{
+    font-size: 22px;
+    font-weight: 800;
+    margin-left: -3rem;
+  }
+  .aboutParagraf{
+    width: 300px;
+  }
+  .Paragraf{
+    font-size: 14px;
+    width: 300px;
+    }
+}
+@media screen and (min-width: 425px) {
+  .aboutName{
+    width: 250px;
+    }
+  .aboutContainer{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .Name{
+    width: 400px;
+    font-size: 24px;
+    font-weight: 800;
+   text-align: center;
+   margin-left: -2rem;
+  }
+  .aboutParagraf{
+    width: 250px;
+    margin-left: 1rem;
+  }
+  .Paragraf{
+    font-size: 16px;
+    width: 300px;
+    }
+}
+@media screen and (max-width: 600px) {
+  .hamburger{
+    display: block;
+    color: white;}
+    
+  .navList{display: none;}
+}
+@media screen and (min-width: 768px) {
+  .aboutContainer{
+    padding-left: 12rem;
+  }
+  .aboutName{
+    width: 600px;
+    }
+  .aboutContainer{
+    padding-top: 2rem;
+    padding-left: 5rem;
+  }
+  .Name{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 6rem;
+  }
+  .aboutParagraf{
+    width: 600px;
+  }
+  .Paragraf{
+    font-size: 16px;
+    width: 600px;
+    }
+}
 @media screen and (max-width: 992px) {
   .landingPage{
     background-image: url(/src/assets/BG.jpg);
@@ -134,9 +266,62 @@
     border-radius: 20px;
   }
 }
-@media screen and (max-width: 600px) {
-  .hamburger{display: block;
-    color: white;}
-    
-  .navList{display: none;}
-}
+
+@media screen and (min-width: 1024px) {
+  .landingPageContainer{
+    margin-top: 3rem;
+  }
+  .aboutName{
+    width: 600px;
+    }
+  .aboutContainer{
+    padding-top: 2rem;
+    padding-left: 15rem;
+  }
+  .Name{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+  }
+  .aboutParagraf{
+    width: 800px;
+    margin-left: -7rem;
+  }
+  .Paragraf{
+    font-size: 20px;
+    width: 800px;
+    text-align: center;
+    margin-left: 0;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .landingPageContainer{
+      margin-top: 3rem;
+    }
+    .aboutName{
+      width: 600px;
+      }
+    .aboutContainer{
+      padding-top: 2rem;
+      padding-left: 30%;
+      width: 800px;
+    }
+    .Name{
+      font-size:32px;
+      font-weight: 800;
+      text-align: center;
+    }
+    .aboutParagraf{
+      width: 800px;
+    }
+    .Paragraf{
+      font-size: 20px;
+      width: 800px;
+      text-align: center;
+      margin-left: 0;
+      }
+    }
+
+
+
+

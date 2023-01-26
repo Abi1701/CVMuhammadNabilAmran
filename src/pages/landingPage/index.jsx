@@ -81,6 +81,23 @@ export default function Page1() {
 					</div>
 				</div>
 			</section>
+			<section className={styles.about}>
+				<div className={styles.aboutContainer}>
+					<div className={styles.aboutName}>
+						<h1 className={styles.Name}>
+							About <br /> Muhammad Nabil Amran
+						</h1>
+					</div>
+					<div className={styles.aboutParagraf}>
+						<p className={styles.Paragraf}>
+							Hello, i am Muhammad Nabil Amran i am an Image Artist and Front
+							End Developer i was born in Jakarta, 17th January 1996 and little
+							bit about me “work hard and work smart“ is my middle name.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section className={styles.career}></section>
 		</>
 	);
 }
