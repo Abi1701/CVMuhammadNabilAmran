@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* landing page */
 .landingPage{
   background-image: url(/src/assets/BG.jpg);
   background-repeat: no-repeat;
@@ -102,7 +103,7 @@
 .jobName{
   color: white;
 }
-
+/* about us */
 .about{
   background:#111820;
   background-repeat: no-repeat;
@@ -112,13 +113,17 @@
   width: 100%;
   font-family: Poppins;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .aboutContainer{
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   color: wheat;
-  padding-left: 13rem;
 }
 .aboutName{
 width: 600px;
@@ -131,7 +136,267 @@ width: 600px;
   width: 600px;
 }
 .Paragraf{
-font-size: 24px;
+font-size: 2rem;
+}
+
+/* career */
+.career{
+  background:#111820;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  min-width: 100%;
+  width: 100%;
+  font-family: Poppins;
+  display: flex;
+  color: wheat;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.careerTittle{
+  position: relative;
+ font-size: 3rem;
+ font-weight: 700;
+}
+.careerContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 50px;
+}
+.careerContainer1{
+border-radius: 20px;
+width: 400px;
+}
+.careerContainer2{
+border-radius: 20px;
+width: 400px;
+}
+.careerContainer3{
+border-radius: 20px;
+width: 400px;
+}
+/* services */
+.services{
+  background:#111820;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  min-width: 100%;
+  width: 100%;
+  font-family: Poppins;
+  display: flex;
+  color: wheat;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.servicesTittle{
+  position: relative;
+  font-size: 3em;
+  font-weight: 600;
+}
+.servicesContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 50px;
+}
+.servicesContainer1{
+  width: 250px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.servicesContent{
+  font-size: 2em;
+}
+.servicesContainer2{
+  width: 250px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.servicesContent2{
+  font-size: 1.5em;
+  width: 300px;
+}
+.servicesContainer3{
+  width: 250px;
+  height: 200px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.servicesContent3{
+  font-size: 1.3em;
+  width: 300px;
+}
+.servicesContainer4{
+  width: 250px;
+  height: 200px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.servicesContent4{
+  font-size: 1.3em;
+  width: 300px;
+}
+.servicesContainer5{
+  width: 250px;
+  height: 200px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.servicesContent5{
+  font-size: 1.5em;
+  width: 300px;
+}
+.servicesContainer6{
+  width: 250px;
+  height: 200px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.servicesContent6{
+  font-size: 1.5em;
+  width: 300px;
+  font-weight: 700;
+  display: flex;
+  gap: 5px;
+}
+/* portofolio */
+
+.portofolio{
+  background:#111820;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  min-width: 100%;
+  width: 100vw;
+  font-family: Poppins;
+  display: flex;
+  color: wheat;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.portofolioContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.cardName{
+  background-color: #D9D9D9;
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  position: relative;
+  margin-top: -2rem;
+  margin-left: 2rem;
+  padding-top: 1rem;
+}
+.cardTittle{
+  color:#111820;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-left: 2rem;
+  border: solid 5px rgba(63, 66, 46, 1);
+  border-left:none;
+  border-right:none;
+  font-size: 1.3em;
+  width: 100px;
+}
+/* portofolio2 */
+.portofolio2{
+  background:#111820;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  min-width: 100%;
+  width: 100vw;
+  font-family: Poppins;
+  display: flex;
+  color: wheat;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.portofolioContainer2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.portofolioTittle{
+  font-size: 2em;
+}
+.cardName2{
+  background-color: #D9D9D9;
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  position: relative;
+  margin-top: -2rem;
+  margin-left: 2rem;
+  padding-top: 1rem;
+}
+.cardTittle2{
+  color:#111820;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border: solid 5px rgba(63, 66, 46, 1);
+  border-left:none;
+  border-right:none;
+  font-size: 1.3em;
+  width: 100px;
+}
+.contact{
+  background:#111820;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  min-width: 100%;
+  width: 100vw;
+  font-family: Poppins;
+  display: flex;
+  color: wheat;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.contactContent{
+  display: flex;
+  align-items: baseline;
 }
 @media screen and (width: 320px) {
   .aboutName{
@@ -148,11 +413,26 @@ font-size: 24px;
   }
   .aboutParagraf{
     width: 300px;
-    margin-left: 1rem;
   }
   .Paragraf{
     font-size: 14px;
     width: 300px;
+    }
+    .careerTittle{
+      font-size: 3em;
+      padding-top: 2rem;
+    }
+    .careerContainer1{
+      width: 300px;
+    }
+    .careerContainer1{
+      width: 300px;
+    }
+    .careerContainer2{
+      width: 300px;
+    }
+    .careerContainer3{
+      width: 300px;
     }
 }
 @media screen and (min-width: 375px) {
@@ -161,19 +441,30 @@ font-size: 24px;
     }
   .aboutContainer{
     padding-top: 2rem;
-    padding-left: 2rem;
   }
   .Name{
     font-size: 22px;
     font-weight: 800;
-    margin-left: -3rem;
   }
   .aboutParagraf{
     width: 300px;
   }
+  .careerTittle{
+    font-size: 3em;
+    padding-top: 2rem;
+  }
   .Paragraf{
     font-size: 14px;
     width: 300px;
+    }
+  .careerContainer1{
+      width: 300px;
+    }
+    .careerContainer2{
+      width: 300px;
+    }
+    .careerContainer3{
+      width: 300px;
     }
 }
 @media screen and (min-width: 425px) {
@@ -182,24 +473,18 @@ font-size: 24px;
     }
   .aboutContainer{
     padding-top: 2rem;
-    padding-left: 3rem;
     display: flex;
     flex-direction: column;
   }
   .Name{
-    width: 400px;
+    width: 250px;
     font-size: 24px;
     font-weight: 800;
-   text-align: center;
-   margin-left: -2rem;
   }
   .aboutParagraf{
-    width: 250px;
-    margin-left: 1rem;
   }
   .Paragraf{
     font-size: 16px;
-    width: 300px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -211,19 +496,17 @@ font-size: 24px;
 }
 @media screen and (min-width: 768px) {
   .aboutContainer{
-    padding-left: 12rem;
   }
   .aboutName{
     width: 600px;
     }
   .aboutContainer{
     padding-top: 2rem;
-    padding-left: 5rem;
   }
   .Name{
+    width: 600px;
     font-size: 20px;
     font-weight: 800;
-    margin-left: 6rem;
   }
   .aboutParagraf{
     width: 600px;
@@ -276,21 +559,17 @@ font-size: 24px;
     }
   .aboutContainer{
     padding-top: 2rem;
-    padding-left: 15rem;
   }
   .Name{
     font-size: 24px;
     font-weight: 800;
-    text-align: center;
   }
   .aboutParagraf{
     width: 800px;
-    margin-left: -7rem;
   }
   .Paragraf{
     font-size: 20px;
     width: 800px;
-    text-align: center;
     margin-left: 0;
     }
   }
@@ -303,13 +582,11 @@ font-size: 24px;
       }
     .aboutContainer{
       padding-top: 2rem;
-      padding-left: 30%;
       width: 800px;
     }
     .Name{
       font-size:32px;
       font-weight: 800;
-      text-align: center;
     }
     .aboutParagraf{
       width: 800px;
