@@ -398,6 +398,10 @@ width: 400px;
   display: flex;
   align-items: baseline;
 }
+.LinkedIn{
+  text-decoration: none;
+  color: wheat;
+}
 @media screen and (width: 320px) {
   .aboutName{
     width: 300px;

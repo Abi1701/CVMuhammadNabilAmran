@@ -13,6 +13,7 @@ import Dev from "../../assets/programming.png";
 import Prewedd from "../../assets/prewedd.jpg";
 import Stage from "../../assets/stage.jpg";
 import Fashion from "../../assets/Fashion.JPG";
+import DiMasjid from "../../assets/DiMasjid.png";
 import Navbar from "../../components/navbar";
 import { Instagram, LinkedIn, PhoneAndroid } from "@mui/icons-material";
 export default function Page1() {
@@ -119,8 +120,8 @@ export default function Page1() {
 						<p>Embassy of Republic Indonesia in South Korea (2019)</p>
 					</div>
 					<div className={styles.careerContainer3}>
-						<h1>Front End Developer</h1>
-						<p>Freelance (2023)</p>
+						<h1>Front End Developer & UI Designer</h1>
+						<p>Freelance at DiMasjid (2023)</p>
 					</div>
 				</div>
 			</section>
@@ -244,6 +245,19 @@ export default function Page1() {
 					</div>
 				</div>
 			</section>
+			<section className={styles.portofolio}>
+				<h1 className={styles.portofolioTittle}>
+					Front End Developer Portofolio
+				</h1>
+				<div className={styles.portofolioContainer}>
+					<div className={styles.cardContent}>
+						<img src={DiMasjid} width={250} alt="prewedd" />
+						<div className={styles.cardName}>
+							<div className={styles.cardTittle}>DiMasjid on developing</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section className={styles.portofolio2}>
 				<h1 className={styles.portofolioTittle}>Front End Developer</h1>
 				<div className={styles.portofolioContainer2}>
@@ -254,10 +268,22 @@ export default function Page1() {
 						<div className={styles.cardTittle2}>CSS</div>
 					</div>
 					<div className={styles.cardName2}>
+						<div style={{ fontSize: 16 }} className={styles.cardTittle2}>
+							Styled Components
+						</div>
+					</div>
+					<div className={styles.cardName2}>
+						<div className={styles.cardTittle2}>SCSS</div>
+					</div>
+					<div className={styles.cardName2}>
 						<div className={styles.cardTittle2}>ReactJs</div>
 					</div>
 					<div className={styles.cardName2}>
-						<div className={styles.cardTittle2}>UI Design</div>
+						<div className={styles.cardTittle2}>NextJs</div>
+					</div>
+
+					<div className={styles.cardName2}>
+						<div className={styles.cardTittle2}>Figma</div>
 					</div>
 				</div>
 			</section>
@@ -267,14 +293,22 @@ export default function Page1() {
 						<PhoneAndroid />
 						<h1>+6287786888827</h1>
 					</div>
-					<div className={styles.contactContent}>
-						<LinkedIn />
-						<h1>Muhammad Nabil Amran</h1>
-					</div>
-					<div className={styles.contactContent}>
-						<Instagram />
-						<h1>potretansiabi</h1>
-					</div>
+					<a
+						className={styles.LinkedIn}
+						href="https://www.linkedin.com/in/muhammad-nabil-amran-2ab996225/">
+						<div className={styles.contactContent}>
+							<LinkedIn />
+							<h1>Muhammad Nabil Amran</h1>
+						</div>
+					</a>
+					<a
+						className={styles.LinkedIn}
+						href="https://www.instagram.com/potretansiabi/">
+						<div className={styles.contactContent}>
+							<Instagram />
+							<h1>potretansiabi</h1>
+						</div>
+					</a>
 				</div>
 			</section>
 		</>
