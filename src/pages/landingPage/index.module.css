@@ -323,6 +323,24 @@ width: 400px;
   font-size: 1.3em;
   width: 100px;
 }
+/* portofolio Website */
+.portofolioContainerWebsite{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.aboutDiMasjid{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 2rem;
+}
+
+
 /* portofolio2 */
 .portofolio2{
   background:#111820;
@@ -438,6 +456,12 @@ width: 400px;
     .careerContainer3{
       width: 300px;
     }
+    .DiMasjidPicture{
+      width: 250px;
+    }
+    .aboutDiMasjid{
+      width: 250px;
+    }
 }
 @media screen and (min-width: 375px) {
   .aboutName{
@@ -470,7 +494,14 @@ width: 400px;
     .careerContainer3{
       width: 300px;
     }
+    .DiMasjidPicture{
+      width: 300px;
+    }
+    .aboutDiMasjid{
+      width: 300px;
+    }
 }
+
 @media screen and (min-width: 425px) {
   .aboutName{
     width: 250px;
@@ -487,8 +518,15 @@ width: 400px;
   }
   .aboutParagraf{
   }
+  
   .Paragraf{
     font-size: 16px;
+    }
+    .DiMasjidPicture{
+      width: 350px;
+    }
+    .aboutDiMasjid{
+      width: 375px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -497,6 +535,9 @@ width: 400px;
     color: white;}
     
   .navList{display: none;}
+  .DiMasjidPicture{
+    margin-left: 2rem;
+  }
 }
 @media screen and (min-width: 768px) {
   .aboutContainer{
@@ -518,6 +559,12 @@ width: 400px;
   .Paragraf{
     font-size: 16px;
     width: 600px;
+    }
+    .DiMasjidPicture{
+      width: 400px;
+    }
+    .aboutDiMasjid{
+      width: 300px;
     }
 }
 @media screen and (max-width: 992px) {

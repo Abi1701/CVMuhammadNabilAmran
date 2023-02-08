@@ -246,20 +246,27 @@ export default function Page1() {
 				</div>
 			</section>
 			<section className={styles.portofolio}>
-				<h1 className={styles.portofolioTittle}>
+				<h1 className={styles.portofolioTittleLong}>
 					Front End Developer Portofolio
 				</h1>
-				<div className={styles.portofolioContainer}>
-					<div className={styles.cardContent}>
-						<img src={DiMasjid} width={250} alt="prewedd" />
-						<div className={styles.cardName}>
-							<div className={styles.cardTittle}>DiMasjid on developing</div>
-						</div>
-					</div>
+				<div className={styles.portofolioContainerWebsite}>
+					<img
+						className={styles.DiMasjidPicture}
+						src={DiMasjid}
+						alt="dimasjid"
+					/>
+					<p className={styles.aboutDiMasjid}>
+						<h1>About DiMasjid</h1>
+						Di Masjid Build with ReactJs framework NextJs. Designed by Muhammad
+						Nabil Amran and Front End Developed by Muhammad Nabil Amran.
+						Designed with figma and implemented by Styled-Components.
+					</p>
 				</div>
 			</section>
 			<section className={styles.portofolio2}>
-				<h1 className={styles.portofolioTittle}>Front End Developer</h1>
+				<h1 className={styles.portofolioTittleLong}>
+					Front End Developer Skills
+				</h1>
 				<div className={styles.portofolioContainer2}>
 					<div className={styles.cardName2}>
 						<div className={styles.cardTittle2}>HTML</div>
