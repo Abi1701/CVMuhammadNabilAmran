@@ -329,7 +329,6 @@ width: 400px;
   flex-wrap: wrap;
   flex-direction: row;
 }
-
 .aboutDiMasjid{
   width: 350px;
   display: flex;
@@ -458,6 +457,7 @@ width: 400px;
     }
     .DiMasjidPicture{
       width: 250px;
+      scale: 1/1;
     }
     .aboutDiMasjid{
       width: 250px;
@@ -496,6 +496,7 @@ width: 400px;
     }
     .DiMasjidPicture{
       width: 300px;
+      scale: 1/1;
     }
     .aboutDiMasjid{
       width: 300px;
@@ -524,6 +525,7 @@ width: 400px;
     }
     .DiMasjidPicture{
       width: 350px;
+      scale: 1/1;
     }
     .aboutDiMasjid{
       width: 375px;
@@ -562,6 +564,7 @@ width: 400px;
     }
     .DiMasjidPicture{
       width: 400px;
+      scale: 1/1;
     }
     .aboutDiMasjid{
       width: 300px;

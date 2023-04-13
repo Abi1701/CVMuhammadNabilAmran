@@ -14,6 +14,8 @@ import Prewedd from "../../assets/prewedd.jpg";
 import Stage from "../../assets/stage.jpg";
 import Fashion from "../../assets/Fashion.JPG";
 import DiMasjid from "../../assets/DiMasjid.png";
+import BinarProject from "../../assets/BinarProject.png";
+import Kepanitiaan from "../../assets/KepanitiaanDimasjid.png";
 import Navbar from "../../components/navbar";
 import { Instagram, LinkedIn, PhoneAndroid } from "@mui/icons-material";
 export default function Page1() {
@@ -260,6 +262,34 @@ export default function Page1() {
 						Di Masjid Build with ReactJs framework NextJs. Designed by Muhammad
 						Nabil Amran and Front End Developed by Muhammad Nabil Amran.
 						Designed with figma and implemented by Styled-Components.
+					</p>
+				</div>
+				<div className={styles.portofolioContainerWebsite}>
+					<img
+						className={styles.DiMasjidPicture}
+						src={BinarProject}
+						alt="dimasjid"
+					/>
+					<p className={styles.aboutDiMasjid}>
+						<h1>About Binar Project</h1>
+						Binar Project are Final Project for Binar bootcamp students. build
+						with ReactJS (NextJs) and styled with styled-components and using
+						Redux components.
+					</p>
+				</div>
+				<div className={styles.portofolioContainerWebsite}>
+					<img
+						className={styles.DiMasjidPicture}
+						src={Kepanitiaan}
+						alt="dimasjid"
+					/>
+					<p className={styles.aboutDiMasjid}>
+						<h1>
+							About <br /> Kepanitiaan DiMasjid
+						</h1>
+						Kepanitiaan Dimasjid builded for Masjid Commitees and used for Data
+						Tracking all masjid event. Currently for Zakat. I build with Ruby on
+						Rails and styled with CSS.
 					</p>
 				</div>
 			</section>
