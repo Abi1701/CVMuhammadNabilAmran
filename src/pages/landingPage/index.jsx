@@ -72,7 +72,7 @@ export default function Page1() {
 								alt="border"
 							/>
 							<h1>
-								Hello, <br /> i'm Muhammad Nabil Amran
+								Hello, <br /> I'm Muhammad Nabil Amran
 							</h1>{" "}
 							<img
 								className={styles.landingPageBorder}
@@ -81,7 +81,7 @@ export default function Page1() {
 							/>
 						</div>
 						<div className={styles.workContainer}>
-							<h1 className={styles.workTittle}>i'm an</h1>
+							<h1 className={styles.workTittle}>I'm an</h1>
 							<div className={styles.imageArtist}>
 								<img className={styles.camera} src={Camera} alt="camera" />
 								<h1 className={styles.jobName}>Image Artist</h1>
