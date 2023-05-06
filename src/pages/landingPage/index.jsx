@@ -72,7 +72,7 @@ export default function Page1() {
 								alt="border"
 							/>
 							<h1>
-								Hello <br /> i'm Muhammad Nabil Amran
+								Hello, <br /> i'm Muhammad Nabil Amran
 							</h1>{" "}
 							<img
 								className={styles.landingPageBorder}
@@ -103,9 +103,11 @@ export default function Page1() {
 					</div>
 					<div className={styles.aboutParagraf}>
 						<p className={styles.Paragraf}>
-							Hello, i am Muhammad Nabil Amran i am an Image Artist and Front
-							End Developer i was born in Jakarta, 17th January 1996 and little
-							bit about me “work hard and work smart“ is my middle name.
+							Born in Jakarta, 17th January 1996, I pursued a career as Image
+							Artist and Front End Developer. I passionate about visual project
+							and do a code that's why i pursued my career to be a Front End
+							Developer. “work hard and work smart“ is my middle name. Make a
+							to-do list is my way to do my code routines.
 						</p>
 					</div>
 				</div>
@@ -141,8 +143,8 @@ export default function Page1() {
 							Image Artist
 						</div>
 						<p className={styles.servicesParagraf}>
-							Photographer since 2016 and Videographer since 2019. if you wanted
-							to check my portofolio, please kindly check on my instagram
+							Photographer since 2016 and Videographer since 2019. Products of
+							my photography and videography are at my Instagram account
 							@potretansiabi.
 						</p>
 					</div>
@@ -157,8 +159,9 @@ export default function Page1() {
 							Front End Developer
 						</div>
 						<p>
-							Front End Developer since 2023 and learned from Binar Academy how
-							to do it. Can do ReactJs, Next Js with the styled-components.
+							Front End Developer since 2023 after pursuing a 6-month boot camp
+							at Binar Academy. I master ReactJs, Next Js with the
+							styled-components.
 						</p>
 					</div>
 					<div className={styles.servicesContainer3}>
@@ -169,11 +172,11 @@ export default function Page1() {
 								src={Web}
 								alt="Website"
 							/>
-							Responsives Website
+							Responsive Website
 						</div>
 						<p>
-							Developing responsive website to all platforms include Mobile,
-							Ipad and Tab.
+							Developing responsive websites to all platforms such as mobile,
+							Ipad and tablets.
 						</p>
 					</div>
 					<div className={styles.servicesContainer4}>
@@ -187,8 +190,8 @@ export default function Page1() {
 							Website Design UI
 						</div>
 						<p>
-							Designing website with Figma and can designing to all platforms. i
-							only do the UI research and developing.
+							Designing websites using Figma that are applicable to all
+							platforms. I focus on the UI research and developing.
 						</p>
 					</div>
 					<div className={styles.servicesContainer5}>
@@ -202,9 +205,9 @@ export default function Page1() {
 							Website Branding
 						</div>
 						<p>
-							i'am basically graduated from Bina Nusantara University Management
-							Program and focused on Business and Organization. i know how to
-							Branding the people and the business.
+							Graduated from Bina Nusantara University Management Program, I
+							focused on Business and Organization. This enhanced my skill on
+							branding for people and business.
 						</p>
 					</div>
 					<div className={styles.servicesContainer6}>
@@ -218,8 +221,8 @@ export default function Page1() {
 							Web Development
 						</div>
 						<p>
-							i can do fixing the Front End Bug and developing the updates from
-							the clients.
+							I detect errors and fix Front End Bug as well as developing
+							updates from clients.
 						</p>
 					</div>
 				</div>
@@ -259,9 +262,10 @@ export default function Page1() {
 					/>
 					<p className={styles.aboutDiMasjid}>
 						<h1>About DiMasjid</h1>
-						Di Masjid Build with ReactJs framework NextJs. Designed by Muhammad
-						Nabil Amran and Front End Developed by Muhammad Nabil Amran.
-						Designed with figma and implemented by Styled-Components.
+						DiMasjid is a website for helping the mosque to more known to
+						moeslem people. DiMasjid is built using VueJs for Frontend. I fully
+						designed and developed the front end using Figma and implemented by
+						CSS.
 					</p>
 				</div>
 				<div className={styles.portofolioContainerWebsite}>
@@ -272,9 +276,9 @@ export default function Page1() {
 					/>
 					<p className={styles.aboutDiMasjid}>
 						<h1>About Binar Project</h1>
-						Binar Project are Final Project for Binar bootcamp students. build
-						with ReactJS (NextJs) and styled with styled-components and using
-						Redux components.
+						Binar Project is the final project of Binar bootcamp students. The
+						project is prototype game platform. Built using ReactJS (NextJs) and
+						styled with Styled-Components by Redux components.
 					</p>
 				</div>
 				<div className={styles.portofolioContainerWebsite}>
@@ -287,9 +291,10 @@ export default function Page1() {
 						<h1>
 							About <br /> Kepanitiaan DiMasjid
 						</h1>
-						Kepanitiaan Dimasjid builded for Masjid Commitees and used for Data
-						Tracking all masjid event. Currently for Zakat. I build with Ruby on
-						Rails and styled with CSS.
+						Kepanitiaan DiMasjid is part of DiMasjid project. It is created for
+						mosque community and used for Data Tracking all events held in the
+						mosque. It is currently available to track Zakat. The project is
+						built using Ruby on Rails and styled with CSS.
 					</p>
 				</div>
 			</section>
